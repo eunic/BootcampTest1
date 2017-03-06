@@ -1,7 +1,20 @@
-def primenum(list):
+j = 0
 
-	for i in list:
+isprime = False
 
-		if i/ 1 == 0 and i/i == 0:
+def primenum(n):
 
-			print(i)
+	for i in range(0,n+1):
+
+		for j in range(2,n):
+		 	
+			if i%j != 0 and i % 1 == 0 and i % i == 0:
+
+				
+				
+		print(i)
+
+	if(isprime):
+
+		print(i)
+primenum(9)
