@@ -1,13 +1,9 @@
 import unittest
-import solution
+import print_prime
 
 class TestSoution(unittest.TestCase):
 
-	def test_addition(self):
-		self.assertTrue(solution.solution(10,20,"+"),30)
-		#self.assertTrue(solution(20,10,"-"),10)
-		#self.assertTrue(solution(20,10,"/"),10)
-		#self.assertTrue(solution(20,10,"*"),10)
+	def primenum(self):
 
 if __name__ == "__main__":
 	unittest.main()
